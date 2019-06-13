@@ -32,6 +32,7 @@ public class ServiceAdapter extends RecyclerView.Adapter<ServiceAdapter.ViewHold
         public TextView motivotext;
         public TextView correotext;
 
+
         public ViewHolder(View itemView) {
             super(itemView);
             fotoimage= itemView.findViewById(R.id.foto_image);
