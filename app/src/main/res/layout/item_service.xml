@@ -19,14 +19,14 @@
 
         <ImageView
             android:id="@+id/foto_image"
-            android:layout_width="110dp"
-            android:layout_height="200dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             android:layout_alignParentStart="true"
             android:layout_marginEnd="16dp"
             app:srcCompat="@mipmap/ic_launcher"/>
 
         <TextView
-            android:id="@+id/nombre_text"
+            android:id="@+id/tipo_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@+id/foto_image"
@@ -39,12 +39,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@+id/foto_image"
-            android:layout_below="@+id/nombre_text"
+            android:layout_below="@+id/tipo_text"
             android:layout_marginBottom="8dp"
             android:textSize="16sp"
             android:text="De: piero@tecsup.edu.pe"/>
         <TextView
-            android:id="@+id/detalle_text"
+            android:id="@+id/motivo_text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@+id/foto_image"
